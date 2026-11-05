@@ -26,26 +26,6 @@ A desktop-based Student Result Management System built with **Python, Tkinter, S
 | `sqlite3` | Python interface for SQLite |
 | Pillow | Image loading, resizing, and clock rendering |
 
-## Project Structure
-
-The project is organized into modules based on the application's major responsibilities. A typical layout is:
-
-```text
-Student-Result-Management-System/
-│
-├── images/                 # Logo, backgrounds, and clock assets
-├── course.py               # Course management
-├── student.py              # Student management
-├── result.py               # Result management
-├── report.py               # Student result reporting
-├── login_staff.py          # Staff login window (if used as a separate module)
-├── dashboard_main.py       # Application/login navigation entry point
-├── rms.db                  # SQLite database
-└── README.md
-```
-
-Your local project may contain additional files for registration, database initialization, or other windows. Keep those files in the project when running the application.
-
 ## Requirements
 
 - Python 3.9 or later recommended
@@ -54,10 +34,9 @@ Your local project may contain additional files for registration, database initi
 
 ## Installation and Setup
 
-1. **Clone or download the repository.**
+1. **Download the repository.**
 
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
    cd Student-Result-Management-System
    ```
 
